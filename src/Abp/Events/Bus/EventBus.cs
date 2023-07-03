@@ -31,7 +31,7 @@ namespace Abp.Events.Bus
         /// Reference to the Logger.
         /// </summary>
         public ILogger Logger { get; set; }
-
+    
         /// <summary>
         /// All registered handler factories.
         /// Key: Type of the event
